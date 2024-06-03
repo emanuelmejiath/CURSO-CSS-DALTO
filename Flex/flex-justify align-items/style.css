@@ -1,0 +1,38 @@
+body{
+    margin: 5px;
+    font-family:sans-serif;
+}
+
+.flexbox{
+    border: 2px solid #000;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:start;
+}
+
+.flex-item{
+    width: 113px;
+
+
+    background-color: #f00;
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+}
+
+.flexbox > .flex-item:first-child{
+    background-color: purple;
+    height: 100px;
+    font-size: 60px;
+}
+
+.flexbox > .flex-item:last-child{
+    background-color: #48e;
+
+    font-size: 100px;
+}
+
+

@@ -1,0 +1,20 @@
+.notificacion{
+    padding: 5px 20px 5px 20px; 
+
+    font-family: sans-serif;
+    background-color: rgb(179, 238, 225);
+
+    border-left: 4px solid red;
+
+}
+
+span{
+    font-size: 13px;
+    color:rgb(196, 149, 149);
+
+    font-weight: 100;
+}
+
+p{
+    font-size: 18px;
+}

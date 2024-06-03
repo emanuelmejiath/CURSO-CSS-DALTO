@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    background-color: #CACAC8;
+    font-family: sans-serif;
+}
+
+.flexbox{
+    display: flex;
+
+}
+
+.flex-item{
+    border: 2px solid #f00;
+    padding: 15px;
+    flex-grow: 1;
+}
+        /* Esta es la condicion para que se apliquen los estilos */
+@media screen and (max-width: 600px){ /**/
+    body{
+        background-color: #f00;
+        color: #fff;
+    }
+    .flexbox{
+        flex-direction: column;
+    }
+}

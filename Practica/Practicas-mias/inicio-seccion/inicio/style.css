@@ -1,0 +1,201 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.list__nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item{
+    list-style: none;
+}
+
+.list__nav{
+    margin: 0px;
+}
+
+.fondo {
+    max-width: 100vw;
+    height: 100vh;
+    background-image: url("https://th.bing.com/th/id/R.fcad9ff3ef34ce1f48114d82bdb4c5a3?rik=ZlV9bMK1idyH8A&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2017%2f03%2f28%2f454058-nature-photography-landscape-mountains-sunrise-mist-clouds-cliff-blue-Alps.jpg&ehk=oyuzw4sKyxEedZpX%2fR%2bVvUn13LqSPETVXMtZCEBmwIE%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    width: 100vw;
+    box-shadow: 0px 0px 40px 0px #000;
+    backdrop-filter:blur(50px);
+}
+
+.item-link{
+    margin: 0px;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+.item-link:hover{
+    background-color: #fff2;
+}
+
+.item--log_in{
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #48e;
+    padding: 5px 13px;
+    transition-property: outline, background-color, color;
+    transition-duration: 0.6s;
+}
+
+.item--log_in:hover{
+    outline: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+/*          AQUI EMPIEZA EL FORMULARIO DE USUARIO          */
+
+.form{
+    max-width: 400px;
+    max-height: 650px;
+    backdrop-filter: blur(7px);
+    position: absolute;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px #000a;
+    border: 1px solid #fff5;
+    border-radius: 9px;
+}
+
+.title{
+    margin: 2px 0px 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+fieldset{
+    margin: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+legend{
+    color: #eee;
+    font-weight: bolder;
+    font-size: 0.8em;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+.form__label{
+    text-shadow: 0px 0px 10px #000a;
+    color: #fffc;
+}
+
+.form__input{
+    color: #fff;
+}
+
+input,select,textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 0px;
+    margin: 0px 0px;
+    margin-bottom: 13px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #bbb;
+    color: #fffc;
+    box-shadow: 0px 0px 20px 0px #0003;
+    position: relative;
+}
+
+option{
+    background-color: #3c3c3c;
+}
+
+textarea{
+    resize:vertical;
+    text-align:left;
+    white-space: none;
+    min-height: 48px;
+    max-height: 90px;
+    margin-bottom: 3px;
+}
+
+.type__user{
+    border: none;
+    color: #fffc;
+}
+
+input, select,textarea:focus-visible{
+    outline: none;
+}
+
+.validate-email:invalid{
+    color: red;
+}
+
+.validate-email:valid{
+    color: blue;
+}
+
+input::placeholder{
+    color: #fffd;
+}
+
+.terms{
+    color: #ffe;
+}
+
+a{
+    color: #69f;
+}
+
+.form__check{
+    margin: 0px;
+    width: 15px;
+}
+
+.form__button{
+    width: 100%;
+    background-color: #48E;
+    border: none;
+    color: #fff;
+    font-weight: bolder;
+    padding: 8px;
+    bottom: 0px;
+    letter-spacing: 1px;
+    transition-property:background-color, box-shadow,;
+    transition-duration: 0.5s;
+    margin: 0.1px;
+    margin-top: 9px;
+}
+
+.form__button:hover{
+    transform: scale(1.1);
+    translate: 1.1;
+    background-color: #f00;
+    box-shadow: 0px 0px 7px 3px #f007;
+}
+
+/* position: absolute; */

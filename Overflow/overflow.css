@@ -1,0 +1,19 @@
+body{
+    background-color: #999;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid #000;
+    position: relative;
+    
+}
+/*
+Tambien Tenemos:
+
+overflow: hidden; corta la imagen y deja una espacio horizontal
+overflow: clip; corta la imagen y no deja ningun espacio
+*/

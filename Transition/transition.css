@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-top: 100px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    position: relative;
+    left: 0px;
+    transition-timing-function: cubic-bezier(.17,.67,.83,.67);
+    transition-duration: 1s;
+    transition-delay: 3s;
+}
+
+body:hover .box{
+    background-color: yellow;
+    left: 90%;
+}

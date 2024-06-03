@@ -1,0 +1,14 @@
+body {
+    background-color: #ddd;
+}
+
+img{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    display: inline-block;
+    margin: 20px;
+    border: 1px solid #000;
+    object-fit: cover;
+    object-position: bottom;
+}

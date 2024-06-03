@@ -1,0 +1,89 @@
+body{
+    background-color: #222;
+    font-family: sans-serif;
+    font-family: sans-serif;
+}
+
+form{
+    max-width: 300px;
+    background-color: #333;
+    padding: 25px;
+    margin: auto;
+    color: #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px #000;
+    margin-top: 50px;
+}
+
+select,input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+    background-color: transparent;
+    border: none;
+    color: #eee;
+    border: 2px solid #999;
+    margin-top: 3px;
+    border-radius: 4px;
+    
+}
+
+.user-referred > input{
+    margin-bottom: 15px;
+}
+
+option{
+    color: #000;
+}
+
+fieldset{
+    padding: 7px 12px 12px 12px;
+    margin-bottom: 10px;
+}
+
+legend{
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+h2{
+    font-size: 1.1em;
+    display: inline;
+    margin-left: 60px;
+}
+
+h2:hover{
+    text-shadow: 0px 0px 10px #eee;
+}
+
+details{
+    margin-top: 10px;
+    margin: 2px solid;
+    display:inline-block;
+}
+
+summary:hover{
+    color: red;
+}
+
+details[open]{
+    font-weight: bolder;
+}
+
+ul > li:first-child{
+    margin-bottom: 5px;
+}
+
+ul > li:first-child > span{
+    color:#a00;
+    text-shadow: 0px 0px 10px #0003;
+}
+
+ul > li:last-child > span{
+    color: #a00;
+    text-shadow: 0px 0px 10px #0003;
+}
+
+P{
+    font-weight: 100;
+}

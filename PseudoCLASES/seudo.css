@@ -1,0 +1,123 @@
+/* SELECIONADO EL PRIMER ELEMENTO */
+ul > li:first-child{
+    color: red;
+    font-weight: bolder;
+}
+
+/* SELECCIONANDO EL ULTIMO ELEMENTO */
+
+ul > li:last-child{
+    color: blue;
+    font-weight: bolder;
+}
+
+/* SELECCINADO CUALQUIER ELEMENTO */
+
+ul > li:nth-child(6){
+    color: yellow;
+    font-weight: bolder;
+}
+
+/* SELENCIONADO SOLO LOS LI */
+
+ul > li:nth-of-type(3){
+    color: purple;
+    font-weight: bolder;
+}
+
+/* SELECIONADO A LOS LI NO EXOCLUIDO */
+
+/* ul > li:not(.excluir){
+    background-color: #999;
+} */
+
+/* SELECIONADO EL DIV EN CASO DE ESTAR VACIO  */
+
+div:empty{
+    border: none;
+}
+/* ENCASO DE QUE TENGA CONTENIDO APARECE CON EL BORDE DE ABAJO */
+div{
+    border: 2px solid #999;
+    border-radius: 10px;
+}
+
+/* EL CHECKBOX CON 50px DE MARGIN */
+
+input[type="checkbox"]{
+    margin: 50px;
+}
+
+/* CUANDO EL CHECKBOX ESTE SELECCIONADO TENDRA UN MARGIN 0 */
+
+input[type="checkbox"]:checked{
+margin: 0px;
+}
+
+/*//////////////////////////////////////*/
+
+/* SELECCINANDO ENLACES NO VISITADOS */
+
+a:link{
+    color: red;
+}
+
+/* SELECCIOANDO ENLACES YA VISITADOS */
+
+a:visited{
+    color: yellow;
+}
+
+/* COLOR DE LETRA CUANDO EL DATO DEL INPUT NO ES VALIDO */
+
+input:invalid{
+    color: red;
+}
+
+/*/////////////////////////////////////////////*/
+
+
+/* COLOR DE LETRA INPUT CUANDO EL DATO ES INVAIDO */
+
+input:invalid{
+    color:red;
+}
+
+/* COLOR DE LETRA INPUT CUANDO EL DATO ES VALIDO */
+
+input:valid{
+    color: blue;
+}
+
+/* COLOR DEL LABEL CUANDO EL DATO DEL INPUT ES INVALIDO */
+
+label:has(input:invalid){
+    color: red;
+}
+
+/* COLOR DEL LABEL CUANDO EL DATO DEL INPUT ES VALIDO */
+
+label:has(input:valid){
+    color: blue;
+}
+/* CAMBIO DE COLOR: LABEL-INPUT */
+input{
+    color: inherit;
+}
+
+/* EN CASO DE QUE A UL LE SIGA UN DIV MADIFICAMOS UL */
+
+section:has(ul){
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+

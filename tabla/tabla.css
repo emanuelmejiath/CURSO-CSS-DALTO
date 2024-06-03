@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    background-color: #CACAC8;
+    font-family: sans-serif;
+}
+
+table{
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 10px;
+    border-spacing: 15px;
+    box-shadow: 0px 0px 20px 0px #0005;
+    border-radius: 10px;
+}
+
+th{
+    border-bottom: 1px solid #0005;
+}
+
+td{
+    text-align: center;
+    border-bottom: 1px solid #0005;
+    padding: 4px 40px;
+}
+
+.total, .data__total{
+    border: none;
+}

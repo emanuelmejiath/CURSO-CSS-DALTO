@@ -1,0 +1,69 @@
+
+body{
+    margin-top: 100px;
+}
+
+
+h1{
+    background-color:rgb(155, 187, 216);
+    width: 275px;
+    margin:auto;
+    text-align:center;
+    margin-bottom: 6px;
+    border: 3px solid blueviolet;
+
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+
+}
+
+form{
+    background-color:blueviolet;
+    padding:20px;
+    width: 228px;
+    margin:auto;
+    
+    border: 3px solid rgb(155, 187, 216);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+    
+input{
+    padding: 15px;
+    margin:4px;
+    margin-left: 10px;
+}
+
+
+.name{
+    font-weight: bolder;
+    font-style:italic;
+    color:red;
+
+    border: 2px solid red;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.password{
+    font-weight:bolder;
+    font-style:italic;
+
+    border: none;
+    border: 2px solid red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+.submit{
+    font-weight: bolder; 
+    padding: 10px 74px 10px 80px;
+    text-align: center;
+    margin-left: 13px;
+    color:blueviolet;
+    
+    border: none;
+    border: 0px solid white;
+    border-radius: 6px;
+}

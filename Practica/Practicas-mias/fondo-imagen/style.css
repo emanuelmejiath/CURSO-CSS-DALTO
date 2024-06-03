@@ -1,0 +1,94 @@
+
+body{
+    background-color: #07f;
+    margin: 0;
+    font-family:system-ui;
+    color: white;
+  }
+  
+  p{
+    margin: 0px;
+  }
+  
+  .box{
+    width: 100%;
+    height: 150px;
+  
+    background-color: #0f0;
+  
+    background-image: url("https://yt3.ggpht.com/jHpWdf9qWNdrCjxfQxCxR0aiYY9Y1IO7s6Jwlk-OgKxS8nzjEMffakE6mdOdp2u22R3130U0nQ=s900-c-k-c0x00ffffff-no-rj");
+  
+    background-size: cover;
+    background-position: top;
+    
+    background-attachment: fixed;
+  }
+  
+  .transparent{
+    width: 100%;
+    height: 80%;
+    background-color: #0007;
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .imagen-reloj{
+    width: 100%;
+    height: 200px;
+  
+    background-color: #0f0;
+    background-image: url("https://superwatchman.com/wp-content/uploads/2022/12/omega_die_another_day.jpg");
+  
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .opaco{
+    width: 100%;
+    height: 100%;
+  
+    background-color: #0007;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*.box{
+    width: 240px;
+   height: 400px;
+   background-color: #000;
+   margin-left: 120px;
+   background-image: url("https://yt3.ggpht.com/jHpWdf9qWNdrCjxfQxCxR0aiYY9Y1IO7s6Jwlk-OgKxS8nzjEMffakE6mdOdp2u22R3130U0nQ=s900-c-k-c0x00ffffff-no-rj");
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   border: 0px solid transparent;
+   border-radius: 10px;
+   }
+   
+   
+   .transparent{
+     width: 100%;
+     height: 70%;
+     background-color: #000a;
+     text-align: center;
+     padding-top: 50%;
+     color: #f53;
+   
+     border: 0px solid transparent;
+   
+     border-radius: 10px;
+   
+   
+   }*/

@@ -1,0 +1,25 @@
+body{
+    margin: 0px;
+    background-color: #1c1c1c;
+}
+
+body :is(.title, .text){
+    color: #fff;
+}
+
+.image{
+    width: 100%;;
+    height: 180px;
+    margin: 0px;
+    background-image: url("/assets/img/dalto.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+.opaco{
+    width: 100%;
+    height: 100%;
+    
+    background-color: #0009;
+}

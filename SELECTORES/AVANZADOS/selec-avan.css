@@ -1,0 +1,42 @@
+
+/*SELECTOR DE ATRIBUTO*/
+
+img[src$="png"]{
+    width: 100%;
+}
+
+
+/*SELECTOR POR HIJO DIRECTO*/
+
+ul > em {
+    font-weight: bolder;
+    color: #0f0;
+}
+
+li span {
+    font-weight: bolder;
+}
+
+li > strong {
+    color: #00f;
+}
+
+ul > u {
+    font-size: 40px;
+}
+
+ul li {
+    color: #bbb;
+}
+
+/*SELECTOR DE HERMANO ADYACENTE*/
+
+h1 + p + p{
+    color: red;
+}
+
+/*SELECTOR DE HERMANOS GENERALES*/
+
+h1 ~ p {
+    color:yellow;
+}

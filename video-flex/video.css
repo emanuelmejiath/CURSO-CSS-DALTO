@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    background-color: #CACAC8;
+    font-family: sans-serif;
+}
+
+.video__container{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+video{
+    max-width: 100%;
+}

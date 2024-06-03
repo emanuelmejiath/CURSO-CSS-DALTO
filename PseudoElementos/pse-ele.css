@@ -1,0 +1,10 @@
+/* PSEUDO-ELEMENTO FIRNST-LETTER */
+
+h1::first-letter{
+    color: red
+}
+
+div::first-line{
+    color: blue;
+    font-weight: bolder;
+}

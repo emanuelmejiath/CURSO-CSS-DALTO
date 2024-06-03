@@ -1,0 +1,26 @@
+body{
+    margin: 0pc;
+    background-color: #ccc;
+}
+
+.container{
+    margin: 20px;
+}
+
+label:has(input:invalid){
+    color: red;
+}
+
+label:has(input:valid){
+    color: #00f;
+}
+
+input{
+    color: inherit;
+    border: none;
+    border-top: 3px solid#999;
+}
+
+input:focus-visible{
+    outline: none;
+}

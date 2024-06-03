@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FRANSICION LOGO MIO</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="/Practica/Practicas-mias/inicio-seccion/inicio/style.css">
+</head>
+
+<body>
+
+    <div class="fondo">
+
+        <header class="header">
+            <nav class="nav flexbox">
+                <ul class="list__nav">
+                    <li class="flex-item"><a href="" class="item-link" target="_blank">Home</a></li>
+                    <li class="flex-item"><a href="" class="item-link" target="_black">About Us</a></li>
+                    <li class="flex-item"><a href="" class="item-link" target="_banck">Contact</a></li>
+                    <li class="flex-item"><a href="" class="item-link item--log_in" target="_black"> Log In</a></li>
+                </ul>
+            </nav>
+        </header> 
+        <form class="form">
+            <h2 class="title">Formulario de usuario</h2>
+
+            <fieldset>
+                <legend>INFORMACION BASICA</legend>
+
+                <!-- Nombre de usuario -->
+                <div class="form__input">
+                    <label class="form__label">
+                        Nombre de usuario
+                        <input type="text" placeholder="Jose Emanuel" readonly>
+                    </label>
+                </div>
+
+                <!-- Email de usuario -->
+                <div class="form__input">
+                    <label class="form__label">
+                        Email
+                        <input class="validate-email" type="email" placeholder="Correo electronico">
+                    </label>
+                </div>
+
+                <!-- Edad del usuario -->
+                <div class="form__input">
+                    <label class="form__label">
+                        Edad
+                        <input type="number" min="0">
+                    </label>
+                </div>
+
+                <!-- Asunto -->
+                <div class="form__input">
+                    <label class="form__label">
+                        Asunto
+                        <input type="text">
+
+                    </label>
+                </div>
+            </fieldset>
+
+            <!-- El tipo de usuario -->
+
+            <div class="type__user">
+                <label>
+                    Tipo de usuario
+                    <select>
+                        <option value="option1">Emanuel</option>
+                        <option value="option2">Empresa</option>
+                        <option value="option3">Cliente</option>
+                        <option vavlue="option4">Recomendado</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form__input">
+                <label>
+                    Referente
+                    <input list="referrer">
+                    <datalist id="referrer">
+                        <option value="Anonimo">Ceo de la empresa</option>
+                        <option value="Empresa">Empresa de seguros</option>
+                        <option value="Cliente">Afiliado</option>
+                        <option value="Otro">Ningunas de las anteriores</option>
+                    </datalist>
+                </label>
+            </div>
+
+            <div class="form__input">
+                <label for="message">Mensaje</label>
+                <textarea placeholder="Deje su mensaje aqui" id="message" rows="3"></textarea>
+            </div>
+            
+            <!-- Terminos y condiciones -->
+            <label class="terms" for="check">
+                Acepto los terminos y <a href="#" >condiciones</a>
+            </label>
+            <input class="form__check" type="checkbox" id="check">
+            
+            <input type="submit" class="form__button" value="ENVIAR">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

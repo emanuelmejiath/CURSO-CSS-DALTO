@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 700px;
+    height: 700px;
+    border: 2px solid #000;
+    margin: auto;
+    padding: 0.1px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.container__boxes{
+    width: 200px;
+    height: 200px;
+}
+
+.container__box1{
+    background-color: red;
+    position: absolute;
+    bottom: 400px;
+    right: 100px;
+}
+
+.container__box2{
+    background-color: blue;
+    position: absolute;
+    bottom: 400px;
+    right: 400px;
+}
+
+.container__box3{
+    width: 300px;
+    height:130px;
+    background-color: orange;
+    position: absolute;
+    right: 200px;
+    top: 500px;
+}
+
+.container__box4{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    position: absolute;
+    bottom: 250px;
+    right: 300px;
+}

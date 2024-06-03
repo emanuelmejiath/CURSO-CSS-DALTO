@@ -1,0 +1,73 @@
+body{
+  margin-top: 50px;
+}
+
+.card{
+  width: 325px;
+  background-color: rgb(222, 116, 63);
+  margin:auto;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 0px 0px 45px #0006;
+}
+
+.blue-card{
+  width: 325px;
+  background-color: rgb(104, 143, 227);
+  margin:auto;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 0px 0px 45px #0006;
+}
+
+
+.green-card{
+  width: 325px;
+  background-color: rgb(164, 206, 112);
+  margin:auto;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 7px;
+  padding: 20px;
+  box-shadow: 0px 0px 45px #0006;
+}
+
+
+.card-title{
+  color: #fff;
+  margin: 0px;
+  font-size: 30px;
+}
+
+.card-description{
+  color: #fff;
+  margin: 0px;
+  font-size: 19px;
+  font-weight: 100;
+  letter-spacing:1.3px;
+  margin-bottom: 20px;
+}
+
+.card-content{
+  color: #fff;
+  text-align: justify;
+  font-size: 14px;
+  padding: 5px; 
+  margin: 0px;
+
+
+}
+
+img{
+  width: 100px;
+  margin: 0px;
+  border-radius: 50%;
+}
+
+
+
+

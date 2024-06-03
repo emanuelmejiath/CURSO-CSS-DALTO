@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.nav{
+    background-color: #48e;
+    width:100%;
+    box-shadow: 0px 0px 10px 0px #000;
+    position: fixed;  /* Position fixed lo que hace es que fija el contenedor */
+}
+
+.nav__list{
+    margin: 0px;
+    text-align: center;
+}
+
+.nav__item{
+    display: inline-block;
+    
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    background-color: #48e;
+}
+
+.nav__link:hover{
+    background-color: #59e;
+}
+
+.link--buttom{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 4px 18px;
+    color: #48e;
+    margin-left: 60px;
+}
+
+.link--buttom:hover{
+    background: transparent;
+    color: #fff;
+}

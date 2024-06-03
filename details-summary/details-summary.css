@@ -1,0 +1,60 @@
+body{
+    background-color: #1c1c1c;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 20px;
+}
+
+.details{
+    width: 390px;
+    color: #fff;
+    border: 1px solid #eee;
+    border-bottom: none;
+}
+
+.details[open]{
+    border: 1px solid #eee;
+    font-weight: bolder;
+    background-color: #555;
+}
+
+.details__summary{
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.summary__text{
+    padding: 10px;
+    font-weight: 100;
+}
+
+.details__time{
+    width: 390px;
+    color: #fff;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    border-bottom: none;
+
+}
+
+.details__time[open]{
+    border: 1px solid #eee;
+    font-weight: bolder;
+    background-color: #555;
+}
+
+.summary__time{
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.list__horario{
+    font-weight: 100;
+    margin: 10px;
+}
+
+span{
+    color: red;
+}
