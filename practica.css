@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box-content{
+
+    min-height: 150px;
+    border: 2px solid #000;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 20px;
+}
+
+.box-content > .box:first-child{
+    background-color: green;
+    flex-shrink: 5;
+}
+
+.box{
+    width: 370px;
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    background-color: red;
+
+
+
+}
+
+.box-content > .box:last-child{
+    background-color: blue;
+
+}
