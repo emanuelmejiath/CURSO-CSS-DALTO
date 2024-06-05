@@ -1,4 +1,9 @@
-h1{
-  color: red;
-  
+body{
+  background-color: #ccc;
+}
+
+@supports (color: oklch(30% 0.2 30)){
+    body{
+      color: oklch(30% 0.2 30);
+    }
 }
