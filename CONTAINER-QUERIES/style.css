@@ -1,0 +1,17 @@
+
+p{
+    font-size: 10px;
+}
+
+.container{
+    container-type: inline-size;
+    container-name: main;
+}
+
+@container main (max-width: 500px){
+    p{
+        font-size: 30px;
+        font-weight: bolder;
+        color: blue;
+    }
+}

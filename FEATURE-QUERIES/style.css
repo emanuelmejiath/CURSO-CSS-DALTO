@@ -3,7 +3,13 @@ body{
 }
 
 @supports (color: oklch(30% 0.2 30)){
-    body{
-      color: oklch(30% 0.2 30);
+    body {
+      color: oklch( 80% 0.2 30);
     }
+}
+
+@supports not (color: oklch(30% 0.2 30)){
+  body {
+    color: purple;
+  }
 }
