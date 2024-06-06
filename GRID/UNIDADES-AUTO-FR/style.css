@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.grid{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+}
+
+.grid-item{
+    background-color: #48e;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: #fff;
+
+}
+
+
