@@ -1,0 +1,21 @@
+
+/* .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr) 4fr;
+    grid-template-rows: 300px 200px; 
+} */
+
+.grid{
+    display: grid;
+    height: 90vh;
+    grid-template-columns: repeat(2, minmax(100px, 300px)) 1fr;
+    grid-template-rows: repeat(2, 300px) 1fr;
+}
+
+.grid-item{
+    color: #fff;
+    background-color: #48e;
+    margin: 10px;
+    font-size: 50px;
+    padding: 10px;
+}
